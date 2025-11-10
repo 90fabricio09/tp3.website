@@ -1,0 +1,15 @@
+# robots.txt para TP3 Imobiliária
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tp3imobiliaria.pt/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin pages
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard
+

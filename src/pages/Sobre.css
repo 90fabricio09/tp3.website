@@ -1,0 +1,368 @@
+.sobre-page {
+  width: 100vw;
+  min-height: 100vh;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.sobre-header {
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+  color: white;
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+  width: 100vw;
+  margin: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sobre-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.sobre-header p {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.sobre-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.sobre-intro {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-text strong {
+  color: #000;
+  font-weight: 600;
+}
+
+.missao-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 3rem;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 5rem;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.missao-icon {
+  font-size: 3.5rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.missao-section h2 {
+  font-size: 2.2rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.missao-section p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #495057;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.atuacao-section {
+  margin-bottom: 5rem;
+}
+
+.atuacao-section h2 {
+  font-size: 2.5rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.atuacao-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.atuacao-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #e9ecef;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.atuacao-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  border-color: #000;
+}
+
+.atuacao-icon {
+  font-size: 3.5rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.atuacao-card:hover .atuacao-icon {
+  transform: scale(1.1);
+}
+
+.atuacao-card h3 {
+  font-size: 1.4rem;
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.atuacao-card p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.valores-section {
+  margin-bottom: 5rem;
+  background: #f8f9fa;
+  padding: 4rem 3rem;
+  border-radius: 16px;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
+.valores-section h2 {
+  font-size: 2.5rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.valor-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.valor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: #666;
+}
+
+.valor-icon {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.valor-card:hover .valor-icon {
+  transform: scale(1.15);
+}
+
+.valor-card h3 {
+  font-size: 1.3rem;
+  color: #000;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.valor-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.local-section {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: white;
+  padding: 3.5rem;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.local-icon {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.local-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.local-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 0 auto 1.2rem;
+}
+
+.contact-section {
+  background: #f8f9fa;
+  padding: 4rem 3rem;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contact-section > p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.contact-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  border-color: #666;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.contact-item strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #000;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.contact-item p {
+  color: #666;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sobre-header {
+    padding: 4rem 1.5rem 3rem;
+  }
+
+  .sobre-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .sobre-header p {
+    font-size: 1.1rem;
+  }
+
+  .sobre-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .intro-text {
+    font-size: 1.05rem;
+  }
+
+  .missao-section,
+  .local-section,
+  .contact-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .valores-section {
+    padding: 2.5rem 1.5rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  .atuacao-section h2,
+  .valores-section h2,
+  .missao-section h2,
+  .local-section h2,
+  .contact-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .atuacao-grid,
+  .valores-grid,
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .atuacao-card,
+  .valor-card {
+    padding: 1.8rem;
+  }
+}
