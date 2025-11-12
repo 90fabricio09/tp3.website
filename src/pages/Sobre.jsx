@@ -138,7 +138,7 @@ function Sobre() {
               </span>
               <div>
                 <strong>Email</strong>
-                <p>TP3imibiliaria@gmail.com</p>
+                <p>TP3imobiliaria@gmail.com</p>
               </div>
             </div>
             <div className="contact-item">

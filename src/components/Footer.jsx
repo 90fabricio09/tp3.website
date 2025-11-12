@@ -42,7 +42,7 @@ function Footer() {
             </li>
             <li>
               <i className="bi bi-envelope-fill"></i>
-              <span>TP3imibiliaria@gmail.com</span>
+              <span>TP3imobiliaria@gmail.com</span>
             </li>
           </ul>
         </div>
