@@ -624,6 +624,20 @@
   .hero {
     min-height: 70vh;
     padding: 3rem 1.5rem;
+    background-attachment: scroll;
+  }
+
+  .features {
+    background: #f8f9fa;
+  }
+
+  .features-container h2 {
+    color: #000;
+  }
+
+  .feature-card {
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
   }
 
   .hero-content h1 {
