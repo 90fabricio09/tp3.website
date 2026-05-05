@@ -1,19 +1,14 @@
+/* Navbar bar */
 .navbar {
-  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
-  padding: 0;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-  width: 100vw;
-  margin: 0;
-  transition: box-shadow 0.3s ease, background 0.3s ease;
-}
-
-.navbar--scrolled {
-  background: rgba(0, 0, 0, 0.97);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(10px);
+  left: 0;
+  width: 100%;
+  z-index: 5001;
+  background: rgba(10, 10, 10, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px) saturate(130%);
+  -webkit-backdrop-filter: blur(16px) saturate(130%);
 }
 
 .navbar-container {
@@ -23,7 +18,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 2.5rem;
-  position: relative;
 }
 
 .navbar-logo {
@@ -50,12 +44,18 @@
   transform: scale(1.03);
 }
 
-.navbar-menu {
+/* Desktop menu */
+.navbar-menu--desktop {
   display: flex;
   list-style: none;
   gap: 0.5rem;
   margin: 0;
   padding: 0;
+}
+
+/* Mobile menu (portalled to body) — hidden on desktop */
+.navbar-menu--mobile {
+  display: none;
 }
 
 .navbar-link {
@@ -89,24 +89,19 @@
   transform: translateY(0);
 }
 
-/* Hamburger */
+/* Hamburger inside navbar (placeholder, hidden on desktop) */
 .navbar-hamburger {
   display: none;
-  flex-direction: column;
-  gap: 5px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: background 0.2s ease;
 }
 
-.navbar-hamburger:hover {
-  background: rgba(255, 255, 255, 0.08);
+/* Hamburger portalled to body (visible only on mobile) */
+.navbar-hamburger-portal {
+  display: none;
 }
 
-.navbar-hamburger span {
+/* Shared hamburger styling */
+.navbar-hamburger span,
+.navbar-hamburger-portal span {
   display: block;
   width: 26px;
   height: 2px;
@@ -129,13 +124,15 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
+/* Backdrop (portalled to body) */
 .navbar-backdrop {
   position: fixed;
   inset: 0;
-  z-index: 998;
+  z-index: 5000;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-/* Responsividade */
+/* ── Mobile ── */
 @media (max-width: 768px) {
   .navbar-container {
     padding: 1rem 1.5rem;
@@ -145,32 +142,70 @@
     height: 38px;
   }
 
+  /* Hide desktop menu and in-navbar hamburger */
+  .navbar-menu--desktop {
+    display: none;
+  }
+
+  /* Show the placeholder hamburger in navbar as invisible spacer */
   .navbar-hamburger {
     display: flex;
-    z-index: 1001;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.55rem;
+    visibility: hidden;
   }
 
-  .navbar-menu {
+  /* Portalled hamburger — always on top of everything except lang/whatsapp */
+  .navbar-hamburger-portal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: fixed;
+    top: 1rem;
+    right: 1.5rem;
+    z-index: 5003;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+    padding: 0.55rem;
+    border-radius: 10px;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .navbar-hamburger-portal:hover {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /* Mobile slide-in menu — above navbar, below hamburger */
+  .navbar-menu--mobile {
+    display: flex;
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     width: min(280px, 80vw);
     height: 100dvh;
-    background: linear-gradient(160deg, #1a1a1a 0%, #0a0a0a 100%);
+    background: rgba(10, 10, 10, 0.45);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    backdrop-filter: blur(20px) saturate(140%);
     flex-direction: column;
+    list-style: none;
     gap: 0.3rem;
     padding: 5rem 1.5rem 2rem;
-    z-index: 999;
-    transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: -8px 0 40px rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.06);
+    margin: 0;
+    z-index: 5002;
+    transform: translateX(105%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -12px 0 42px rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
   }
 
-  .navbar-menu--open {
-    right: 0;
+  .navbar-menu--mobile.navbar-menu--open {
+    transform: translateX(0);
   }
 
-  .navbar-link {
+  .navbar-menu--mobile .navbar-link {
     padding: 1rem 1.2rem;
     font-size: 1.05rem;
     border-radius: 10px;
@@ -178,7 +213,7 @@
     justify-content: flex-start;
   }
 
-  .navbar-link i {
+  .navbar-menu--mobile .navbar-link i {
     font-size: 1.2rem;
     width: 1.4rem;
   }
@@ -191,5 +226,10 @@
 
   .navbar-logo-img {
     height: 34px;
+  }
+
+  .navbar-hamburger-portal {
+    top: 0.9rem;
+    right: 1.2rem;
   }
 }

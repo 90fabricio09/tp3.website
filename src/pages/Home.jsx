@@ -7,7 +7,7 @@ function Home() {
   const scrollTo = (id) => {
     const el = document.getElementById(id);
     if (el) {
-      const top = el.getBoundingClientRect().top + window.scrollY - 72;
+      const top = el.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({ top, behavior: 'smooth' });
     }
   };
@@ -43,8 +43,8 @@ function Home() {
             </div>
             <div className="hero-stat-divider" />
             <div className="hero-stat">
-              <span className="stat-number">3</span>
-              <span className="stat-label">Áreas de atuação</span>
+              <span className="stat-number">PT</span>
+              <span className="stat-label">Vistorias em todo Portugal</span>
             </div>
             <div className="hero-stat-divider" />
             <div className="hero-stat">
@@ -52,10 +52,11 @@ function Home() {
               <span className="stat-label">Comprometimento</span>
             </div>
           </div>
+          <button className="hero-scroll-indicator" onClick={() => scrollTo('services')} aria-label="Rolar para baixo">
+            <i className="bi bi-mouse scroll-icon-desktop"></i>
+            <i className="bi bi-chevron-down scroll-icon-mobile"></i>
+          </button>
         </div>
-        <button className="hero-scroll-indicator" onClick={() => scrollTo('services')} aria-label="Rolar para baixo">
-          <i className="bi bi-chevron-down"></i>
-        </button>
       </section>
 
       {/* ── SERVIÇOS ── */}
@@ -67,24 +68,24 @@ function Home() {
           </div>
 
           <div className="services-grid">
-            <div className="service-card">
+            <div className="service-card featured">
+              <div className="service-badge">{t.services.badge}</div>
               <div className="service-icon">
-                <i className="bi bi-house-door"></i>
+                <i className="bi bi-clipboard-check"></i>
               </div>
-              <h3>{t.services.realEstate.title}</h3>
-              <p>{t.services.realEstate.desc}</p>
+              <h3>{t.services.propertyInspection.title}</h3>
+              <p>{t.services.propertyInspection.desc}</p>
               <button className="service-link" onClick={() => scrollTo('contact')}>
                 {t.services.learnMore} <i className="bi bi-arrow-right"></i>
               </button>
             </div>
 
-            <div className="service-card featured">
-              <div className="service-badge">{t.services.badge}</div>
+            <div className="service-card">
               <div className="service-icon">
-                <i className="bi bi-gear"></i>
+                <i className="bi bi-rulers"></i>
               </div>
-              <h3>{t.services.engineering.title}</h3>
-              <p>{t.services.engineering.desc}</p>
+              <h3>{t.services.technicalInspection.title}</h3>
+              <p>{t.services.technicalInspection.desc}</p>
               <button className="service-link" onClick={() => scrollTo('contact')}>
                 {t.services.learnMore} <i className="bi bi-arrow-right"></i>
               </button>
@@ -261,7 +262,7 @@ function Home() {
                 </span>
                 <div>
                   <strong>{t.contact.email}</strong>
-                  <p>TP3imobiliaria@gmail.com</p>
+                  <p>TP3engenharia@gmail.com</p>
                 </div>
               </div>
               <div className="contact-info-card">

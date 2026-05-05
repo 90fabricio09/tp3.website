@@ -2,6 +2,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LanguageSelector from './components/LanguageSelector';
+import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
         </main>
         <Footer />
         <LanguageSelector />
+        <WhatsAppButton />
       </div>
     </LanguageProvider>
   );

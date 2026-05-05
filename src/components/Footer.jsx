@@ -18,12 +18,12 @@ function Footer() {
           <h3>{t.footer.servicesTitle}</h3>
           <ul className="footer-list">
             <li>
-              <i className="bi bi-house-door"></i>
-              <span>{t.footer.services.realEstate}</span>
+              <i className="bi bi-clipboard-check"></i>
+              <span>{t.footer.services.propertyInspection}</span>
             </li>
             <li>
-              <i className="bi bi-gear"></i>
-              <span>{t.footer.services.engineering}</span>
+              <i className="bi bi-rulers"></i>
+              <span>{t.footer.services.technicalInspection}</span>
             </li>
             <li>
               <i className="bi bi-hammer"></i>
