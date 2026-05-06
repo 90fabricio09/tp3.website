@@ -95,7 +95,7 @@ export const translations = {
       contactTitle: 'Contacto',
       hoursTitle: 'Horário de Atendimento',
       hoursVal: 'Segunda a Sexta: 9h - 17h',
-      copyright: '© 2025 TP3 - Inspeções e Engenharia. Todos os direitos reservados.',
+      copyright: '© 2026 TP3 - Inspeções e Engenharia. Todos os direitos reservados.',
       services: {
         propertyInspection: 'Inspeção Técnica de Imóveis',
         technicalInspection: 'Inspeção Técnica Estrutural',
@@ -202,7 +202,7 @@ export const translations = {
       contactTitle: 'Contact',
       hoursTitle: 'Working Hours',
       hoursVal: 'Monday to Friday: 9am – 5pm',
-      copyright: '© 2025 TP3 - Inspections and Engineering. All rights reserved.',
+      copyright: '© 2026 TP3 - Inspections and Engineering. All rights reserved.',
       services: {
         propertyInspection: 'Technical Property Inspection',
         technicalInspection: 'Structural Technical Inspection',
@@ -309,7 +309,7 @@ export const translations = {
       contactTitle: 'Contacto',
       hoursTitle: 'Horario de Atención',
       hoursVal: 'Lunes a Viernes: 9h – 17h',
-      copyright: '© 2025 TP3 - Inspecciones e Ingeniería. Todos los derechos reservados.',
+      copyright: '© 2026 TP3 - Inspecciones e Ingeniería. Todos los derechos reservados.',
       services: {
         propertyInspection: 'Inspección Técnica de Inmuebles',
         technicalInspection: 'Inspección Técnica Estructural',
