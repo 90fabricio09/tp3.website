@@ -26,7 +26,7 @@ function Footer() {
               <span>{t.footer.services.technicalInspection}</span>
             </li>
             <li>
-              <i className="bi bi-hammer"></i>
+              <i className="bi bi-building-check"></i>
               <span>{t.footer.services.renovation}</span>
             </li>
           </ul>
@@ -37,7 +37,7 @@ function Footer() {
           <ul className="footer-list">
             <li>
               <i className="bi bi-geo-alt-fill"></i>
-              <span>Viseu, Portugal</span>
+              <span>Portugal</span>
             </li>
             <li>
               <i className="bi bi-telephone-fill"></i>

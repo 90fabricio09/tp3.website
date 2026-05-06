@@ -21,7 +21,7 @@ function Home() {
         <div className="hero-content">
           <div className="hero-badge">
             <i className="bi bi-geo-alt-fill"></i>
-            <span>Viseu, Portugal</span>
+            <span>Portugal</span>
           </div>
           <h1>{t.hero.title}</h1>
           <p className="hero-subtitle">{t.hero.subtitle}</p>
@@ -44,7 +44,7 @@ function Home() {
             <div className="hero-stat-divider" />
             <div className="hero-stat">
               <span className="stat-number">PT</span>
-              <span className="stat-label">Vistorias em todo Portugal</span>
+              <span className="stat-label">Inspeções em todo Portugal</span>
             </div>
             <div className="hero-stat-divider" />
             <div className="hero-stat">
@@ -93,7 +93,7 @@ function Home() {
 
             <div className="service-card">
               <div className="service-icon">
-                <i className="bi bi-hammer"></i>
+                <i className="bi bi-building-check"></i>
               </div>
               <h3>{t.services.renovation.title}</h3>
               <p>{t.services.renovation.desc}</p>

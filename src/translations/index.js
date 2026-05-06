@@ -7,29 +7,29 @@ export const translations = {
       contact: 'Contacto',
     },
     hero: {
-      title: 'TP3 — Vistorias de Imóvel, Vistorias Técnicas e Engenharia',
-      subtitle: 'Mais de 10 anos de experiência | Viseu, Portugal',
+      title: 'TP3 — Engenharia em Inspeção Técnica de Imóveis',
+      subtitle: 'Mais de 10 anos de experiência | Portugal',
       description:
-        'Vistorias de imóvel e vistorias técnicas com rigor de engenharia, atendimento ágil e cobertura em todo Portugal',
+        'Inspeções técnicas de imóveis e inspeções estruturais com rigor de engenharia, atendimento ágil e cobertura em todo Portugal',
       ctaContact: 'Falar Connosco',
       ctaAbout: 'Conheça a TP3',
     },
     services: {
       title: 'Nossos Serviços',
-      subtitle: 'Foco em vistorias com rigor técnico e atendimento em todo Portugal',
+      subtitle: 'Foco em inspeções com rigor técnico e atendimento em todo Portugal',
       badge: 'Principal',
       learnMore: 'Saiba mais',
       propertyInspection: {
-        title: 'Vistoria de Imóvel',
-        desc: 'Inspeção detalhada para compra, venda, arrendamento e entrega de imóveis, com relatório técnico claro e objetivo.',
+        title: 'Inspeção Técnica de Imóveis',
+        desc: 'Inspeção detalhada para garantir uma compra segura com relatório técnico completo, claro e objetivo.',
       },
       technicalInspection: {
-        title: 'Vistoria Técnica',
-        desc: 'Avaliação técnica de patologias construtivas, conformidade e riscos, realizada por engenheiros qualificados.',
+        title: 'Inspeção Técnica Estrutural',
+        desc: 'Avaliação técnica de patologias construtivas, conformidades e riscos, cálculos estruturais, realizada por engenheiros altamente qualificados.',
       },
       renovation: {
-        title: 'Remodelações Complementares',
-        desc: 'Intervenções pontuais e remodelações de apoio, executadas de forma secundária conforme a necessidade do cliente.',
+        title: 'Fiscalização e Assistência Técnica em Obras',
+        desc: 'Garantia de qualidade, segurança e conformidade com o seu projeto.',
       },
     },
     features: {
@@ -53,17 +53,17 @@ export const translations = {
     },
     about: {
       title: 'Sobre a TP3',
-      subtitle: 'Vistorias de imóvel e técnicas com confiança, precisão e excelência',
+      subtitle: 'Inspeções técnicas de imóveis com confiança, precisão e excelência',
       intro1:
-        'A TP3 é uma empresa sediada em Viseu, Portugal, com a solidez de mais de 10 anos de experiência no Brasil em engenharia e inspeções técnicas.',
+        'A TP3 é uma empresa sediada em Portugal, com a solidez de mais de 10 anos de experiência no Brasil em engenharia e inspeções técnicas.',
       intro2:
-        'Formada por dois engenheiros altamente qualificados, a TP3 atua com foco em vistoria de imóvel e vistoria técnica, entregando relatórios claros, rigor técnico e confiança em cada atendimento.',
+        'Formada por dois engenheiros altamente qualificados, a TP3 atua com foco em inspeção técnica de imóveis e inspeção técnica estrutural, entregando relatórios claros, rigor técnico e confiança em cada atendimento.',
       missionTitle: 'Nossa Missão',
       mission:
-        'Oferecer vistorias de imóvel e vistorias técnicas com elevado padrão de qualidade, transparência e precisão, apoiando decisões seguras para clientes em todo Portugal.',
+        'Oferecer inspeções técnicas de imóveis e inspeções estruturais com elevado padrão de qualidade, transparência e precisão, apoiando decisões seguras para clientes em todo Portugal.',
       locationTitle: 'Atuação Nacional',
       location:
-        'Com sede em Viseu, a TP3 atua em todo Portugal, com atendimento técnico especializado, agilidade e profissionalismo.',
+        'A TP3 atua em todo Portugal, com atendimento técnico especializado, agilidade e profissionalismo.',
       valuesTitle: 'Nossos Diferenciais',
       values: {
         exp: { title: 'Experiência', desc: 'Mais de 10 anos no mercado' },
@@ -82,24 +82,24 @@ export const translations = {
       whatsapp: 'Falar no WhatsApp',
       call: 'Ligar Agora',
       location: 'Localização',
-      locationVal: 'Viseu, Portugal',
+      locationVal: 'Portugal',
       phone: 'Telefone',
       email: 'Email',
       hours: 'Horário',
       hoursVal: 'Segunda a Sexta: 9h - 17h',
     },
     footer: {
-      tagline: 'Vistorias de imóvel e técnicas com confiança e excelência em todo Portugal',
+      tagline: 'Inspeções técnicas de imóveis com confiança e excelência em todo Portugal',
       experience: 'Mais de 10 anos de experiência',
       servicesTitle: 'Serviços',
       contactTitle: 'Contacto',
       hoursTitle: 'Horário de Atendimento',
       hoursVal: 'Segunda a Sexta: 9h - 17h',
-      copyright: '© 2025 TP3 - Vistorias e Engenharia. Todos os direitos reservados.',
+      copyright: '© 2025 TP3 - Inspeções e Engenharia. Todos os direitos reservados.',
       services: {
-        propertyInspection: 'Vistoria de Imóvel',
-        technicalInspection: 'Vistoria Técnica',
-        renovation: 'Remodelações Complementares',
+        propertyInspection: 'Inspeção Técnica de Imóveis',
+        technicalInspection: 'Inspeção Técnica Estrutural',
+        renovation: 'Fiscalização e Assistência Técnica em Obras',
       },
     },
     langSelector: {
@@ -115,29 +115,29 @@ export const translations = {
       contact: 'Contact',
     },
     hero: {
-      title: 'TP3 — Property Inspections, Technical Inspections & Engineering',
-      subtitle: 'Over 10 years of experience | Viseu, Portugal',
+      title: 'TP3 — Engineering in Technical Property Inspection',
+      subtitle: 'Over 10 years of experience | Portugal',
       description:
-        'Property and technical inspections with engineering rigour, fast service and nationwide coverage across Portugal',
+        'Technical property inspections and structural inspections with engineering rigour, fast service and nationwide coverage across Portugal',
       ctaContact: 'Talk to Us',
       ctaAbout: 'Discover TP3',
     },
     services: {
       title: 'Our Services',
-      subtitle: 'Inspection-first services delivered with technical rigour across Portugal',
+      subtitle: 'Inspections with technical rigour and service across all of Portugal',
       badge: 'Core Service',
       learnMore: 'Learn more',
       propertyInspection: {
-        title: 'Property Inspection',
-        desc: 'Detailed inspection for buying, selling, renting and handover stages, delivered with a clear technical report.',
+        title: 'Technical Property Inspection',
+        desc: 'Detailed inspection to ensure a safe purchase with a complete, clear and objective technical report.',
       },
       technicalInspection: {
-        title: 'Technical Inspection',
-        desc: 'Technical assessment of construction defects, compliance and risks, performed by qualified engineers.',
+        title: 'Structural Technical Inspection',
+        desc: 'Technical assessment of construction pathologies, compliance and risks, structural calculations, performed by highly qualified engineers.',
       },
       renovation: {
-        title: 'Complementary Renovations',
-        desc: 'Targeted interventions and renovations offered as a secondary support service when needed.',
+        title: 'Supervision & Technical Assistance in Construction',
+        desc: 'Quality assurance, safety and compliance with your project.',
       },
     },
     features: {
@@ -161,17 +161,17 @@ export const translations = {
     },
     about: {
       title: 'About TP3',
-      subtitle: 'Property and technical inspections delivered with confidence, precision and excellence',
+      subtitle: 'Technical property inspections with confidence, precision and excellence',
       intro1:
-        'TP3 is based in Viseu, Portugal, and backed by over 10 years of experience in Brazil in engineering and technical inspections.',
+        'TP3 is based in Portugal, and backed by over 10 years of experience in Brazil in engineering and technical inspections.',
       intro2:
-        'Formed by two highly qualified engineers, TP3 focuses on property inspections and technical inspections, delivering clear reports, technical rigour and trust in every service.',
+        'Formed by two highly qualified engineers, TP3 focuses on technical property inspections and structural technical inspections, delivering clear reports, technical rigour and trust in every service.',
       missionTitle: 'Our Mission',
       mission:
-        'To provide property and technical inspections with high standards of quality, transparency and accuracy, supporting safe decisions for clients across Portugal.',
+        'To provide technical property inspections and structural inspections with high standards of quality, transparency and accuracy, supporting safe decisions for clients across Portugal.',
       locationTitle: 'Nationwide Coverage',
       location:
-        'Headquartered in Viseu, TP3 serves all of Portugal with specialized technical support, agility and professionalism.',
+        'TP3 serves all of Portugal with specialized technical support, agility and professionalism.',
       valuesTitle: 'Our Differentials',
       values: {
         exp: { title: 'Experience', desc: 'Over 10 years in the market' },
@@ -189,14 +189,14 @@ export const translations = {
       whatsapp: 'Chat on WhatsApp',
       call: 'Call Now',
       location: 'Location',
-      locationVal: 'Viseu, Portugal',
+      locationVal: 'Portugal',
       phone: 'Phone',
       email: 'Email',
       hours: 'Working Hours',
       hoursVal: 'Monday to Friday: 9am – 5pm',
     },
     footer: {
-      tagline: 'Property and technical inspections with confidence and excellence across Portugal',
+      tagline: 'Technical property inspections with confidence and excellence across Portugal',
       experience: 'Over 10 years of experience',
       servicesTitle: 'Services',
       contactTitle: 'Contact',
@@ -204,9 +204,9 @@ export const translations = {
       hoursVal: 'Monday to Friday: 9am – 5pm',
       copyright: '© 2025 TP3 - Inspections and Engineering. All rights reserved.',
       services: {
-        propertyInspection: 'Property Inspection',
-        technicalInspection: 'Technical Inspection',
-        renovation: 'Complementary Renovations',
+        propertyInspection: 'Technical Property Inspection',
+        technicalInspection: 'Structural Technical Inspection',
+        renovation: 'Supervision & Technical Assistance',
       },
     },
     langSelector: {
@@ -222,10 +222,10 @@ export const translations = {
       contact: 'Contacto',
     },
     hero: {
-      title: 'TP3 — Inspección de Inmuebles, Inspección Técnica e Ingeniería',
-      subtitle: 'Más de 10 años de experiencia | Viseu, Portugal',
+      title: 'TP3 — Ingeniería en Inspección Técnica de Inmuebles',
+      subtitle: 'Más de 10 años de experiencia | Portugal',
       description:
-        'Inspección de inmuebles e inspección técnica con rigor de ingeniería, respuesta ágil y cobertura en todo Portugal',
+        'Inspecciones técnicas de inmuebles e inspecciones estructurales con rigor de ingeniería, respuesta ágil y cobertura en todo Portugal',
       ctaContact: 'Hablar con Nosotros',
       ctaAbout: 'Conocer TP3',
     },
@@ -235,16 +235,16 @@ export const translations = {
       badge: 'Principal',
       learnMore: 'Saber más',
       propertyInspection: {
-        title: 'Inspección de Inmuebles',
-        desc: 'Inspección detallada para compra, venta, alquiler y entrega de inmuebles, con informe técnico claro y objetivo.',
+        title: 'Inspección Técnica de Inmuebles',
+        desc: 'Inspección detallada para garantizar una compra segura con informe técnico completo, claro y objetivo.',
       },
       technicalInspection: {
-        title: 'Inspección Técnica',
-        desc: 'Evaluación técnica de patologías constructivas, conformidad y riesgos, realizada por ingenieros cualificados.',
+        title: 'Inspección Técnica Estructural',
+        desc: 'Evaluación técnica de patologías constructivas, conformidades y riesgos, cálculos estructurales, realizada por ingenieros altamente cualificados.',
       },
       renovation: {
-        title: 'Reformas Complementarias',
-        desc: 'Intervenciones puntuales y reformas de apoyo, ofrecidas como servicio secundario según la necesidad del cliente.',
+        title: 'Fiscalización y Asistencia Técnica en Obras',
+        desc: 'Garantía de calidad, seguridad y conformidad con su proyecto.',
       },
     },
     features: {
@@ -268,17 +268,17 @@ export const translations = {
     },
     about: {
       title: 'Sobre TP3',
-      subtitle: 'Inspección de inmuebles y técnica con confianza, precisión y excelencia',
+      subtitle: 'Inspecciones técnicas de inmuebles con confianza, precisión y excelencia',
       intro1:
-        'TP3 es una empresa con sede en Viseu, Portugal, con la solidez de más de 10 años de experiencia en Brasil en ingeniería e inspecciones técnicas.',
+        'TP3 es una empresa con sede en Portugal, con la solidez de más de 10 años de experiencia en Brasil en ingeniería e inspecciones técnicas.',
       intro2:
-        'Formada por dos ingenieros altamente cualificados, TP3 se centra en inspección de inmuebles e inspección técnica, con informes claros, rigor técnico y confianza en cada servicio.',
+        'Formada por dos ingenieros altamente cualificados, TP3 se centra en inspección técnica de inmuebles e inspección técnica estructural, con informes claros, rigor técnico y confianza en cada servicio.',
       missionTitle: 'Nuestra Misión',
       mission:
-        'Ofrecer inspección de inmuebles e inspección técnica con altos estándares de calidad, transparencia y precisión, apoyando decisiones seguras para clientes en todo Portugal.',
+        'Ofrecer inspecciones técnicas de inmuebles e inspecciones estructurales con altos estándares de calidad, transparencia y precisión, apoyando decisiones seguras para clientes en todo Portugal.',
       locationTitle: 'Cobertura Nacional',
       location:
-        'Con sede en Viseu, TP3 actúa en todo Portugal con atención técnica especializada, agilidad y profesionalismo.',
+        'TP3 actúa en todo Portugal con atención técnica especializada, agilidad y profesionalismo.',
       valuesTitle: 'Nuestros Diferenciales',
       values: {
         exp: { title: 'Experiencia', desc: 'Más de 10 años en el mercado' },
@@ -296,14 +296,14 @@ export const translations = {
       whatsapp: 'Chatear en WhatsApp',
       call: 'Llamar Ahora',
       location: 'Ubicación',
-      locationVal: 'Viseu, Portugal',
+      locationVal: 'Portugal',
       phone: 'Teléfono',
       email: 'Email',
       hours: 'Horario',
       hoursVal: 'Lunes a Viernes: 9h – 17h',
     },
     footer: {
-      tagline: 'Inspección de inmuebles y técnica con confianza y excelencia en todo Portugal',
+      tagline: 'Inspecciones técnicas de inmuebles con confianza y excelencia en todo Portugal',
       experience: 'Más de 10 años de experiencia',
       servicesTitle: 'Servicios',
       contactTitle: 'Contacto',
@@ -311,9 +311,9 @@ export const translations = {
       hoursVal: 'Lunes a Viernes: 9h – 17h',
       copyright: '© 2025 TP3 - Inspecciones e Ingeniería. Todos los derechos reservados.',
       services: {
-        propertyInspection: 'Inspección de Inmuebles',
-        technicalInspection: 'Inspección Técnica',
-        renovation: 'Reformas Complementarias',
+        propertyInspection: 'Inspección Técnica de Inmuebles',
+        technicalInspection: 'Inspección Técnica Estructural',
+        renovation: 'Fiscalización y Asistencia Técnica',
       },
     },
     langSelector: {
